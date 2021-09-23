@@ -8,10 +8,12 @@ using pipelines_dotnet_core.Models;
 
 namespace pipelines_dotnet_core.Controllers
 {
-
-
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Commnets added by Nazim
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
