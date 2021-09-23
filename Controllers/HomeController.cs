@@ -12,6 +12,10 @@ namespace pipelines_dotnet_core.Controllers
 
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Added by Nazim
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
